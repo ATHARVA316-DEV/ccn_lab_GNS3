@@ -67,9 +67,10 @@ PC2 e0   <---->  Switch2
 
 ### Screenshot 1 — Final GNS3 topology
 
-> **Paste screenshot here**
+> <img width="1518" height="677" alt="image" src="https://github.com/user-attachments/assets/5d8ed518-5f9b-426f-aa5f-7279a9dd53a8" />
+
 >
-> Recommended screenshot: complete topology showing R1–R2–R3, both switches, both PCs, and green/active links.
+> complete topology showing R1–R2–R3, both switches, both PCs, and green/active links.
 
 <br><br><br>
 
@@ -121,9 +122,11 @@ R3: s1/1, f0/0
 
 ### Screenshot 2 — Interface check
 
-> **Paste screenshot here**
->
-> Recommended screenshot: one or more router consoles showing `show ip interface brief`.
+> <img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/fa62d57e-997e-41c2-9852-a1fe275f2230" />
+
+><img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/f3cd235f-660a-4956-aa6a-f02475e48e35" />
+
+> one or more router consoles showing `show ip interface brief`.
 
 <br><br><br>
 
@@ -165,7 +168,10 @@ Serial1/1         10.0.0.1      up   up
 
 ### Screenshot 3 — R1 configuration
 
-> **Paste screenshot here**
+> <img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/4f127145-d620-439e-87ea-46941751249b" />
+
+><img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/74745029-e627-4723-869c-f41a5bb8f503" />
+
 
 <br><br><br>
 
@@ -207,7 +213,9 @@ Serial1/2   10.0.1.1   up   up
 
 ### Screenshot 4 — R2 configuration
 
-> **Paste screenshot here**
+> <img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/fba82f12-09a1-4ab8-b446-af35f8b41655" />
+><img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/6536a0c7-717e-4093-9bbe-6da7a68b9d22" />
+
 
 <br><br><br>
 
@@ -247,7 +255,8 @@ FastEthernet0/0 192.168.2.1 up  up
 
 ### Screenshot 5 — R3 configuration
 
-> **Paste screenshot here**
+> <img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/d003e1aa-babe-4d47-8575-75e118ee6226" />
+
 
 <br><br><br>
 
@@ -269,7 +278,8 @@ show ip
 
 ### Screenshot 6 — PC1 configuration
 
-> **Paste screenshot here**
+> <img width="1600" height="713" alt="image" src="https://github.com/user-attachments/assets/6d9a948a-62ea-487f-b190-3000f575abe4" />
+
 
 <br><br><br>
 
@@ -291,7 +301,8 @@ show ip
 
 ### Screenshot 7 — PC2 configuration
 
-> **Paste screenshot here**
+> <img width="1417" height="550" alt="image" src="https://github.com/user-attachments/assets/00e2ee48-c24f-49d2-8334-2ba31d91e5f7" />
+
 
 <br><br><br>
 
@@ -339,9 +350,11 @@ ping 192.168.2.1
 
 ### Screenshot 8 — Direct-link ping tests
 
-> **Paste screenshot here**
->
-> Recommended screenshot: successful pings for R1→R2 and R2→R3.
+> <img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/0282e01e-94df-4e92-bc20-b2325c0da145" />
+
+><img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/75427353-a7b1-4a6e-87e9-d124a6c51d6c" />
+
+>  successful pings for R1→R2 and R2→R3.
 
 <br><br><br>
 
@@ -401,9 +414,14 @@ R3 -> 10.0.1.0 + 192.168.2.0
 
 ### Screenshot 9 — RIP configuration
 
-> **Paste screenshot here**
->
-> Recommended screenshot: R1, R2 and R3 showing `router rip`, `version 2`, and their `network` commands.
+> <img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/ce472273-b6e6-4c42-b27e-6562df14088b" />
+
+><img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/11ff789f-fc58-4ec7-a7ee-8c1149a60be4" />
+
+><img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/53522faf-3347-4afb-889f-5d0378ae3229" />
+
+
+>  R1, R2 and R3 showing `router rip`, `version 2`, and their `network` commands.
 
 <br><br><br>
 
@@ -445,21 +463,6 @@ After RIP converges:
 
 **R3** should learn the remote networks toward R1, including `10.0.0.0/24` and `192.168.1.0/24`.
 
-### Screenshot 10 — Routing table of R1
-
-> **Paste screenshot here**
-
-<br><br><br>
-
-### Screenshot 11 — Routing table of R2
-
-> **Paste screenshot here**
-
-<br><br><br>
-
-### Screenshot 12 — Routing table of R3
-
-> **Paste screenshot here**
 
 <br><br><br>
 
@@ -497,9 +500,10 @@ A successful ping confirms that routing between the two LANs is working.
 
 ### Screenshot 13 — PC1 to PC2 successful ping
 
-> **Paste screenshot here**
+> <img width="1600" height="713" alt="image" src="https://github.com/user-attachments/assets/8a632586-1e6f-402f-9bcd-7310878933fc" />
+
 >
-> Recommended screenshot: PC1 terminal showing replies from `192.168.2.2`.
+>  PC1 terminal showing replies from `192.168.2.2`.
 
 <br><br><br>
 
@@ -547,15 +551,17 @@ rip
 
 ### Screenshot 14 — Wireshark ping capture
 
-> **Paste screenshot here**
+> <img width="1600" height="633" alt="image" src="https://github.com/user-attachments/assets/7fa07043-7f91-442b-931b-c7e83ec925ca" />
+
 
 <br><br><br>
 
 ### Screenshot 15 — Wireshark packet details
 
-> **Paste screenshot here**
+> <img width="1600" height="569" alt="image" src="https://github.com/user-attachments/assets/309809bb-fcb7-4db3-b836-6305a844fd30" />
+
 >
-> Recommended screenshot: expand one ICMP packet and show the protocol information.
+>expand one ICMP packet and show the protocol information.
 
 <br><br><br>
 
@@ -792,11 +798,6 @@ Keep the screenshots in this order so the experiment is easy to check:
 
 A 2-hop network was designed in GNS3 using three routers, IPv4 addresses were configured on all required interfaces and PCs, RIP version 2 was configured for dynamic routing, the routing tables were verified, end-to-end connectivity was tested from PC1 to PC2, and packets were analyzed using Wireshark.
 
-### Final Screenshot — Complete Experiment
-
-> **Paste screenshot here**
->
-> Recommended screenshot: complete GNS3 topology with all links active plus the successful PC1-to-PC2 ping.
 
 <br><br><br>
 
