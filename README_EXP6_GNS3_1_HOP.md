@@ -317,14 +317,6 @@ Also check the switch connections and repeat the ping.
 
 The 1-hop network was designed in GNS3, IPv4 addresses were configured on the router and PCs, connectivity was verified using `ping`, and the exchanged ICMP packets were observed using Wireshark.
 
-### Screenshot 7 — Final result / all devices working
-
-> **Paste screenshot here**
->
-> Recommended screenshot: complete GNS3 topology with all links active, plus a successful ping result.
-
-<br><br><br>
-
 ---
 
 ## 14. Quick Rebuild Checklist
